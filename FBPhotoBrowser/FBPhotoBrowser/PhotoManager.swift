@@ -42,11 +42,9 @@ class PhotoManager {
     
     static func loadPhoto(from url: String, forItemAt indexPath: IndexPath, completion: @escaping (_ image: UIImage?, _ indexPath: IndexPath) -> Void) {
         
-        print(indexPath)
-        
         loadPhotoFromUrl(url: url) { (image) in
+            
             completion(image, indexPath)
-            print(indexPath)
         }
         
     }

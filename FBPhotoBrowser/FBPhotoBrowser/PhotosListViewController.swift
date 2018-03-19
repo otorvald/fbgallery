@@ -37,13 +37,39 @@ class PhotosListViewController: UICollectionViewController {
         }
         
         self.title = self.album?.name!
+        self.changeCollectionViewDueToDevice()
         
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         
+        self.changeCollectionViewDueToDevice()
         self.collectionView?.collectionViewLayout.invalidateLayout()
         
+    }
+    
+    
+    func changeCollectionViewDueToDevice() {
+        let deviceIdiom = UIScreen.main.traitCollection.userInterfaceIdiom
+        
+        switch (deviceIdiom) {
+        case .pad:
+            if UIDevice.current.orientation == .portrait {
+                self.columnCount = 5
+            }
+            else {
+                self.columnCount = 6
+            }
+        case .phone:
+            if UIDevice.current.orientation == .portrait {
+                self.columnCount = 3
+            }
+            else {
+                self.columnCount = 4
+            }
+        default:
+            print("Unspecified UI idiom")
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
