@@ -30,7 +30,7 @@ class PhotosListViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
         
         if self.album != nil {
             self.getPhotosFromAlbum(albumId: (self.album?.id!)!)
@@ -108,10 +108,12 @@ extension PhotosListViewController {
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        self.selectedPictureIndex = indexPath.item
-        
-        performSegue(withIdentifier: "toPhoto", sender: self)
-        
+        if self.photos[indexPath.item].image != #imageLiteral(resourceName: "empty") {
+            
+            self.selectedPictureIndex = indexPath.item
+            
+            performSegue(withIdentifier: "toPhoto", sender: self)
+        }
     }
 }
 

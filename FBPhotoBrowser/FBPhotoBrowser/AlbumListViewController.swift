@@ -21,7 +21,7 @@ class AlbumListViewController: UIViewController {
         
         self.navigationItem.hidesBackButton = true
         self.navigationController?.navigationBar.barTintColor = UIColor(red:67/255.0, green:104/255.0, blue:173/255.0, alpha: 1)
-        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
         
         self.title = "Albums List"
         

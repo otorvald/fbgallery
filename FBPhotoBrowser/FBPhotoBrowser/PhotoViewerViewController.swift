@@ -19,6 +19,8 @@ class PhotoViewerViewController: UIViewController, UIGestureRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        
         let swipeGestureRecognizerRight = UISwipeGestureRecognizer(target: self, action: #selector(showPreviousImage))
         swipeGestureRecognizerRight.direction = .right
         swipeGestureRecognizerRight.delegate = self
@@ -30,6 +32,7 @@ class PhotoViewerViewController: UIViewController, UIGestureRecognizerDelegate {
         self.view.addGestureRecognizer(swipeGestureRecognizerLeft)
     
         self.title = "Photo Viewer"
+        
         photoView.image = self.photos[pictureIndex].image
     }
     
