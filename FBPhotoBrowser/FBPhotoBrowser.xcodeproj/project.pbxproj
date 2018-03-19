@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006CA4AB2059484C00A5F78E /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CA4AA2059484C00A5F78E /* FBManager.swift */; };
+		006CA4AD20595A9800A5F78E /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CA4AC20595A9800A5F78E /* PhotoManager.swift */; };
+		006CA4AF2059717700A5F78E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CA4AE2059717700A5F78E /* PhotoCell.swift */; };
+		5020488F1F5EABF90028C7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020488E1F5EABF90028C7BE /* AppDelegate.swift */; };
+		502048911F5EABF90028C7BE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502048901F5EABF90028C7BE /* LogInViewController.swift */; };
+		502048941F5EABF90028C7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502048921F5EABF90028C7BE /* Main.storyboard */; };
+		502048961F5EABF90028C7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502048951F5EABF90028C7BE /* Assets.xcassets */; };
+		502048991F5EABF90028C7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502048971F5EABF90028C7BE /* LaunchScreen.storyboard */; };
+		502048A21F5EAD050028C7BE /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502048A11F5EAD050028C7BE /* AlbumListViewController.swift */; };
+		502048A41F5EAD3A0028C7BE /* PhotosListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502048A31F5EAD3A0028C7BE /* PhotosListViewController.swift */; };
+		502048A61F5EAD810028C7BE /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502048A51F5EAD810028C7BE /* PhotoViewerViewController.swift */; };
+		504711A91F6010D5000F757B /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504711A61F6010D5000F757B /* AlbumData.swift */; };
+		504711AA1F6010D5000F757B /* CoverPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504711A71F6010D5000F757B /* CoverPhoto.swift */; };
+		504711AB1F6010D5000F757B /* AlbumProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504711A81F6010D5000F757B /* AlbumProperties.swift */; };
+		504711AF1F6012C7000F757B /* AlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504711AE1F6012C7000F757B /* AlbumListCell.swift */; };
+		5092135B1F61531900956CA0 /* PictureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092135A1F61531900956CA0 /* PictureData.swift */; };
+		5092135D1F61538C00956CA0 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092135C1F61538C00956CA0 /* Picture.swift */; };
+		509213621F61695100956CA0 /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509213601F61695100956CA0 /* PhotoData.swift */; };
+		509213631F61695100956CA0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509213611F61695100956CA0 /* Photo.swift */; };
+		50B9DDEF1F5F1A95002FA5E8 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9DDEE1F5F1A95002FA5E8 /* Splash.swift */; };
+		50B9DDF11F5F1EC5002FA5E8 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B9DDF01F5F1EC5002FA5E8 /* Splash.storyboard */; };
+		66A2D93D53FE1995FD473F85 /* Pods_FBPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF20ED9D0E32C564D51062A1 /* Pods_FBPhotoBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006CA4AA2059484C00A5F78E /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		006CA4AC20595A9800A5F78E /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		006CA4AE2059717700A5F78E /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		5020488B1F5EABF90028C7BE /* FBPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5020488E1F5EABF90028C7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		502048901F5EABF90028C7BE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		502048931F5EABF90028C7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		502048951F5EABF90028C7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		502048981F5EABF90028C7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5020489A1F5EABF90028C7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502048A11F5EAD050028C7BE /* AlbumListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		502048A31F5EAD3A0028C7BE /* PhotosListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosListViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		502048A51F5EAD810028C7BE /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		504711A61F6010D5000F757B /* AlbumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
+		504711A71F6010D5000F757B /* CoverPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverPhoto.swift; sourceTree = "<group>"; };
+		504711A81F6010D5000F757B /* AlbumProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumProperties.swift; sourceTree = "<group>"; };
+		504711AE1F6012C7000F757B /* AlbumListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListCell.swift; sourceTree = "<group>"; };
+		5092135A1F61531900956CA0 /* PictureData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureData.swift; sourceTree = "<group>"; };
+		5092135C1F61538C00956CA0 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		509213601F61695100956CA0 /* PhotoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		509213611F61695100956CA0 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		50B9DDEE1F5F1A95002FA5E8 /* Splash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		50B9DDF01F5F1EC5002FA5E8 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		5EFAEA0FF589CCF1CE3FBC9A /* Pods-FBPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBPhotoBrowser/Pods-FBPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		AF20ED9D0E32C564D51062A1 /* Pods_FBPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FD652D8AAA5C77F33CDCE2 /* Pods-FBPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBPhotoBrowser/Pods-FBPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502048881F5EABF90028C7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A2D93D53FE1995FD473F85 /* Pods_FBPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006CA4A8205947C400A5F78E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				502048901F5EABF90028C7BE /* LogInViewController.swift */,
+				502048A11F5EAD050028C7BE /* AlbumListViewController.swift */,
+				502048A31F5EAD3A0028C7BE /* PhotosListViewController.swift */,
+				502048A51F5EAD810028C7BE /* PhotoViewerViewController.swift */,
+				50B9DDEE1F5F1A95002FA5E8 /* Splash.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		006CA4A92059481800A5F78E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				006CA4AA2059484C00A5F78E /* FBManager.swift */,
+				006CA4AC20595A9800A5F78E /* PhotoManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		1A9884B758E01BFF85755FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EFAEA0FF589CCF1CE3FBC9A /* Pods-FBPhotoBrowser.debug.xcconfig */,
+				C9FD652D8AAA5C77F33CDCE2 /* Pods-FBPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		502048821F5EABF90028C7BE = {
+			isa = PBXGroup;
+			children = (
+				5020488D1F5EABF90028C7BE /* FBPhotoBrowser */,
+				5020488C1F5EABF90028C7BE /* Products */,
+				1A9884B758E01BFF85755FD1 /* Pods */,
+				D15C141B10DF10826B400702 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5020488C1F5EABF90028C7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5020488B1F5EABF90028C7BE /* FBPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5020488D1F5EABF90028C7BE /* FBPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				504711A51F6010C3000F757B /* Response */,
+				006CA4A8205947C400A5F78E /* ViewControllers */,
+				006CA4A92059481800A5F78E /* Managers */,
+				504711AE1F6012C7000F757B /* AlbumListCell.swift */,
+				006CA4AE2059717700A5F78E /* PhotoCell.swift */,
+				50B9DDF01F5F1EC5002FA5E8 /* Splash.storyboard */,
+				502048921F5EABF90028C7BE /* Main.storyboard */,
+				502048A01F5EAC210028C7BE /* SupportingFiles */,
+			);
+			path = FBPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		502048A01F5EAC210028C7BE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5020488E1F5EABF90028C7BE /* AppDelegate.swift */,
+				502048971F5EABF90028C7BE /* LaunchScreen.storyboard */,
+				502048951F5EABF90028C7BE /* Assets.xcassets */,
+				5020489A1F5EABF90028C7BE /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		504711A51F6010C3000F757B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				504711AC1F601155000F757B /* AlbumData */,
+				504711AD1F601167000F757B /* PhotoData */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		504711AC1F601155000F757B /* AlbumData */ = {
+			isa = PBXGroup;
+			children = (
+				504711A61F6010D5000F757B /* AlbumData.swift */,
+				504711A71F6010D5000F757B /* CoverPhoto.swift */,
+				5092135A1F61531900956CA0 /* PictureData.swift */,
+				5092135C1F61538C00956CA0 /* Picture.swift */,
+				504711A81F6010D5000F757B /* AlbumProperties.swift */,
+			);
+			name = AlbumData;
+			sourceTree = "<group>";
+		};
+		504711AD1F601167000F757B /* PhotoData */ = {
+			isa = PBXGroup;
+			children = (
+				509213601F61695100956CA0 /* PhotoData.swift */,
+				509213611F61695100956CA0 /* Photo.swift */,
+			);
+			name = PhotoData;
+			sourceTree = "<group>";
+		};
+		D15C141B10DF10826B400702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF20ED9D0E32C564D51062A1 /* Pods_FBPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5020488A1F5EABF90028C7BE /* FBPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5020489D1F5EABF90028C7BE /* Build configuration list for PBXNativeTarget "FBPhotoBrowser" */;
+			buildPhases = (
+				6319DCA039929054C12009DB /* [CP] Check Pods Manifest.lock */,
+				502048871F5EABF90028C7BE /* Sources */,
+				502048881F5EABF90028C7BE /* Frameworks */,
+				502048891F5EABF90028C7BE /* Resources */,
+				72A347B93F31AC0D2BDB6EF6 /* [CP] Embed Pods Frameworks */,
+				72E180214302921B2EE67EC7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBPhotoBrowser;
+			productName = FBPhotoBrowser;
+			productReference = 5020488B1F5EABF90028C7BE /* FBPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		502048831F5EABF90028C7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = max.bystryk.dev;
+				TargetAttributes = {
+					5020488A1F5EABF90028C7BE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GK4ZL37R5T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 502048861F5EABF90028C7BE /* Build configuration list for PBXProject "FBPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 502048821F5EABF90028C7BE;
+			productRefGroup = 5020488C1F5EABF90028C7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5020488A1F5EABF90028C7BE /* FBPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		502048891F5EABF90028C7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502048991F5EABF90028C7BE /* LaunchScreen.storyboard in Resources */,
+				502048961F5EABF90028C7BE /* Assets.xcassets in Resources */,
+				502048941F5EABF90028C7BE /* Main.storyboard in Resources */,
+				50B9DDF11F5F1EC5002FA5E8 /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6319DCA039929054C12009DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72A347B93F31AC0D2BDB6EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPhotoBrowser/Pods-FBPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E180214302921B2EE67EC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPhotoBrowser/Pods-FBPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502048871F5EABF90028C7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509213631F61695100956CA0 /* Photo.swift in Sources */,
+				50B9DDEF1F5F1A95002FA5E8 /* Splash.swift in Sources */,
+				502048911F5EABF90028C7BE /* LogInViewController.swift in Sources */,
+				504711A91F6010D5000F757B /* AlbumData.swift in Sources */,
+				504711AB1F6010D5000F757B /* AlbumProperties.swift in Sources */,
+				5092135D1F61538C00956CA0 /* Picture.swift in Sources */,
+				502048A21F5EAD050028C7BE /* AlbumListViewController.swift in Sources */,
+				502048A61F5EAD810028C7BE /* PhotoViewerViewController.swift in Sources */,
+				504711AA1F6010D5000F757B /* CoverPhoto.swift in Sources */,
+				5020488F1F5EABF90028C7BE /* AppDelegate.swift in Sources */,
+				006CA4AD20595A9800A5F78E /* PhotoManager.swift in Sources */,
+				509213621F61695100956CA0 /* PhotoData.swift in Sources */,
+				5092135B1F61531900956CA0 /* PictureData.swift in Sources */,
+				502048A41F5EAD3A0028C7BE /* PhotosListViewController.swift in Sources */,
+				006CA4AF2059717700A5F78E /* PhotoCell.swift in Sources */,
+				504711AF1F6012C7000F757B /* AlbumListCell.swift in Sources */,
+				006CA4AB2059484C00A5F78E /* FBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		502048921F5EABF90028C7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502048931F5EABF90028C7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		502048971F5EABF90028C7BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502048981F5EABF90028C7BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5020489B1F5EABF90028C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5020489C1F5EABF90028C7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5020489E1F5EABF90028C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFAEA0FF589CCF1CE3FBC9A /* Pods-FBPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = GK4ZL37R5T;
+				INFOPLIST_FILE = FBPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.max.FBPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5020489F1F5EABF90028C7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FD652D8AAA5C77F33CDCE2 /* Pods-FBPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = GK4ZL37R5T;
+				INFOPLIST_FILE = FBPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.max.FBPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		502048861F5EABF90028C7BE /* Build configuration list for PBXProject "FBPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5020489B1F5EABF90028C7BE /* Debug */,
+				5020489C1F5EABF90028C7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5020489D1F5EABF90028C7BE /* Build configuration list for PBXNativeTarget "FBPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5020489E1F5EABF90028C7BE /* Debug */,
+				5020489F1F5EABF90028C7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 502048831F5EABF90028C7BE /* Project object */;
+}
